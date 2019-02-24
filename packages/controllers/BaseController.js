@@ -1,7 +1,8 @@
-import QueryBuilder from '@adonisjs/lucid/src/Lucid/QueryBuilder';
-import Model from '@adonisjs/lucid/src/Lucid/Model';
-import ServiceResponse from '../Services/ServiceResponse';
-import ErrorCode from '../Exceptions/ErrorCodeException';
+const { ErrorCodeException } = require('@conceptho/exceptions');
+const { ServiceResponse } = require('@conceptho/services');
+
+const Model = require('@adonisjs/lucid/src/Lucid/Model');
+const QueryBuilder = require('@adonisjs/lucid/src/Lucid/QueryBuilder');
 
 /**
  * Resourceful controller for interacting with bases
@@ -45,10 +46,10 @@ class BaseController {
         return response.noContent();
       }
 
-      throw new ErrorCode(400, data);
+      throw new ErrorCodeException(400, data);
     }
 
-    throw new ErrorCode(500, data);
+    throw new ErrorCodeException(500, data);
   }
 }
 

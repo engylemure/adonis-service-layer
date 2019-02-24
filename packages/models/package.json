@@ -1,0 +1,22 @@
+{
+  "name": "@conceptho/models",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Conceptho",
+  "license": "MIT",
+  "homepage": "https://github.com/conceptho/adonis-service-layer#readme",
+  "keywords": [
+    "conceptho",
+    "adonisjs",
+    "service",
+    "layer",
+    "controllers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conceptho/adonis-service-layer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/conceptho/adonis-service-layer/issues"
+  }
+}
