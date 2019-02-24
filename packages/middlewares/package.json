@@ -28,5 +28,6 @@
     "@adonisjs/framework": "^5.0.9",
     "@adonisjs/ignitor": "^2.0.8",
     "@adonisjs/lucid": "^6.1.3"
-  }
+  },
+  "gitHead": "bd330e40bfc93fe0710f75695c6c71e352dd039a"
 }
